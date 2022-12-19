@@ -1,0 +1,13 @@
+.table tr{
+    &:nth-child(odd) {
+        background-color: #EEEEEE;
+    }
+    .fa-ellipsis{
+        opacity: 0;
+    }
+    &:hover{
+        .fa-ellipsis{
+            opacity: 1;
+        }
+    }
+}

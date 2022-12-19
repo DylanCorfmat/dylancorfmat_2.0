@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21f7e5b9-8595-498b-abaf-062a0862c951" name="Changes" comment="" />
+    <list default="true" id="21f7e5b9-8595-498b-abaf-062a0862c951" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/projet/app/Http/Controllers/OverviewController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/resources/sass/custom/components/_side-nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/resources/sass/custom/components/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/app/Models/projets.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/app/Models/projets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035334_create_parcours_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035511_create_experiences_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035511_create_experiences_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035522_create_projets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035522_create_projets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/projet/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/portfolio/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -27,10 +57,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "SCSS",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projet/app/Http/Controllers" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,7 +76,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670555323799</updated>
-      <workItem from="1670555325258" duration="2020000" />
+      <workItem from="1670555325258" duration="7826000" />
+      <workItem from="1670959042844" duration="13000" />
+      <workItem from="1671337054273" duration="3191000" />
+      <workItem from="1671341866406" duration="17098000" />
     </task>
     <servers />
   </component>

@@ -15,6 +15,12 @@ return new class extends Migration
     {
         Schema::create('experiences', function (Blueprint $table) {
             $table->id();
+            $table->string('titre');
+            $table->string('image');
+            $table->text('description');
+            $table->enum('type', array('scolaire', 'travail'))->default('travail');
+            $table->date('date_debut');
+            $table->date('date_fin');
             $table->timestamps();
         });
     }
