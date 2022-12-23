@@ -37,17 +37,17 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('/')}}">
+                            <a class="nav-link" href="{{Route('parcours')}}">
                                 À propos
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('/')}}">
+                            <a class="nav-link" href="{{Route('portfolio')}}">
                                 Portfolio
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{url('/')}}">
+                            <a class="nav-link" href="{{Route('contact')}}">
                                 Contact
                             </a>
                         </li>

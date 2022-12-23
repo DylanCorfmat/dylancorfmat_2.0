@@ -1,12 +1,10 @@
 .table tr{
-    &:nth-child(odd) {
-        background-color: #EEEEEE;
-    }
-    .fa-ellipsis{
+    .fa-ellipsis-vertical{
         opacity: 0;
     }
     &:hover{
-        .fa-ellipsis{
+        background-color: #EEEEEE;
+        .fa-ellipsis-vertical{
             opacity: 1;
         }
     }

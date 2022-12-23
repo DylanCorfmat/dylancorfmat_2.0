@@ -2,28 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f7e5b9-8595-498b-abaf-062a0862c951" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/projet/app/Http/Controllers/OverviewController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet/resources/sass/custom/components/_side-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projet/resources/sass/custom/components/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/app/Http/Controllers/PublicController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/resources/sass/custom/components/_project-cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/resources/sass/custom/components/experience-cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/resources/views/contacts.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/resources/views/parcours.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projet/resources/views/portfolio.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/app/Models/projets.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/app/Models/projets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/projet/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035334_create_parcours_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035511_create_experiences_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035511_create_experiences_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035522_create_projets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/database/migrations/2022_12_09_035522_create_projets_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/projet/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projet/resources/sass/custom/components/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/sass/custom/components/_tables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projet/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/projet/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projet/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/projet/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Sass File" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -52,17 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "SCSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/projet/app/Http/Controllers" />
@@ -79,7 +69,9 @@
       <workItem from="1670555325258" duration="7826000" />
       <workItem from="1670959042844" duration="13000" />
       <workItem from="1671337054273" duration="3191000" />
-      <workItem from="1671341866406" duration="17098000" />
+      <workItem from="1671341866406" duration="20182000" />
+      <workItem from="1671480936157" duration="5000" />
+      <workItem from="1671505780333" duration="3734000" />
     </task>
     <servers />
   </component>

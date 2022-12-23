@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\OverviewController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\PublicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,9 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PublicController::class, 'home'])->name('portfolio');
+Route::get('/portfolio', [PublicController::class, 'portfolio'])->name('portfolio');
+Route::get('/parcours', [PublicController::class, 'parcours'])->name('parcours');
+Route::get('/contact', [PublicController::class, 'contact'])->name('contact');
+
 
 Route::get('/dashboard', [OverviewController::class, 'index'])->middleware(['auth', 'verified'])->name('dashboard');
 
